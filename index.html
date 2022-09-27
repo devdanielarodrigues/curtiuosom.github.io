@@ -323,20 +323,21 @@
 							</p>
 						</div>
 						<div class="col-lg-8">
-								<form id="myForm" action="mail.php" method="post" class="contact-form">
+								<form  action="https://formsquash.io/f/LEIIVK7xzPnzYrZ32pdF" method="POST">
 									<div class="row justify-content-center">
 										<div class="col-lg-6">
-											<input name="fname" placeholder="Digite o seu nome" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite o seu nome'" class="common-input mt-20" required="" type="text">
+											<input name="nome" placeholder="Digite o seu nome" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite o seu nome'" class="common-input mt-20" required="" type="text">
 
 											<input name="email" placeholder="Digite o seu e-mail" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mt-20" required="" type="email">
 
-											<input name="phone" placeholder="Telefone para contato"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter phone number'" class="common-input mt-20" required="" type="tel">
+											<input name="telefone" placeholder="Telefone para contato"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite o seu telefone de contato'" class="common-input mt-20" required="" type="text">
 										</div>
 										<div class="col-lg-6">
-											<textarea class="common-textarea mt-20" name="message" placeholder="Deixe aqui a sua mensagem" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mensagem'" required=""></textarea>
+											<textarea class="common-textarea mt-20" name="messagem" placeholder="Deixe aqui a sua mensagem" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mensagem'" required=""></textarea>
 
 											<button class="primary-btn d-inline-flex align-items-center mt-20"><span class="mr-10">Enviar Mensagem</span><span class="lnr lnr-arrow-right"></span></button> <br>
 											<div class="alert-msg"></div>
+											<input type="hidden" name="_gotcha">
 										</div>
 									</div>
 								</form>
