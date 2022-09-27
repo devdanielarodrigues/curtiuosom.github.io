@@ -71,7 +71,7 @@ $('a[href*="#"]')
         type: 'iframe',
         mainClass: 'mfp-fade',
         removalDelay: 160,
-        preloader: false,
+        preloader: true,
         fixedContentPos: false
     });
 
